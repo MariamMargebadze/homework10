@@ -1,5 +1,9 @@
 @media (max-width:480px){
     .section1{
         height: 240px;
+        padding: 24px;
+    }
+    .section1_title{
+        margin-bottom: 20px;
     }
 }
