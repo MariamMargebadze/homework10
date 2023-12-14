@@ -9,3 +9,8 @@
         display: block;
     }
 }
+@media (max-width:550px){
+    header{
+        padding: 32px 24px;
+    }
+}

@@ -3,3 +3,18 @@
         padding: 32px;
     }
 }
+@media (max-width:810px){
+    .section1{
+        padding: 0 66px;
+    }
+}
+@media (max-width:948px){
+    .section1{
+        height: 320px;
+    }
+    .section1_title{
+        font-size: 36px;
+        line-height: 44px; /* 122.222% */
+    }
+
+}

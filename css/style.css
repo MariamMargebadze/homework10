@@ -47,3 +47,47 @@ header{
 .burger_icon{
     display: none;
 }
+
+/* section1 */
+
+
+.section1{
+    height: 520px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 274px;
+    vertical-align: middle;
+}
+.section1_article{
+    width: 892px;
+    text-align: center;
+
+}
+.section1_title{
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    text-shadow: 3px 3px 4px #FFF;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 107.143% */
+    margin-bottom: 40px;
+
+} 
+
+.section1_button{
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44023728370666504px;
+    padding: 12px 30px;
+    border-radius: 32px;
+}
