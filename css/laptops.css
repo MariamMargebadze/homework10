@@ -16,5 +16,9 @@
         font-size: 36px;
         line-height: 44px; /* 122.222% */
     }
-
+}
+@media (max-width: 1024px){
+    .section2_container{
+        flex-direction: column;
+    }
 }
