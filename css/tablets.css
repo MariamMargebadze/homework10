@@ -17,14 +17,17 @@
         padding: 32px 24px;
     }
 }
-@media (max-width:948px){
-    .section1{
-        padding: 0px 85px;
-    }
-}
 @media (max-width:450px){
     .section2_container_left{
         height: 240px;
+    }
+    .section2_title{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .section2_text{
+        font-size: 14px;
+        line-height: 22px;
     }
     .section3{
         padding: 32px 24px;

@@ -1,43 +1,3 @@
-@media (max-width: 1024px){
-    header{
-        padding: 32px;
-    }
-
-}
-@media (max-width:810px){
-    .section1{
-        padding: 0 66px;
-    }
-}
-@media (max-width:948px){
-    .section1{
-        height: 320px;
-    }
-    .section1_title{
-        font-size: 36px;
-        line-height: 44px; /* 122.222% */
-    }
-}
-@media (max-width: 1024px){
-    .section2_container{
-        flex-direction: column;
-    }
-}
-@media (max-width:1280px){
-    .section3{
-        padding: 80px 32px;
-    }
-}
-@media (max-width:900px){
-    .section3_container{
-        flex-direction: column;
-        display: flex;
-        row-gap: 20px;
-    }
-    .div_article{
-        justify-content: center;
-    }
-}
 @media (max-width:1305px){
     footer{
         padding: 40px 445px 40px 32px;
@@ -53,9 +13,9 @@
         column-gap: 160px;
     }
 }
-@media (max-width:800px){
-    .footer_container1{
-        column-gap: 96px;
+@media (max-width:1280px){
+    .section3{
+        padding: 80px 32px;
     }
 }
 @media (max-width:1200px){
@@ -64,7 +24,7 @@
     }
 }
 @media (max-width:1028px){
-    .section2_container{
+    .section2{
         flex-direction: column;
         row-gap: 40px;
     }
@@ -76,9 +36,53 @@
         flex-direction: row;
         column-gap: 80px;
         width: 100%;
-
+        justify-content: space-between;
+    }
+    .section2_title,
+    .section2_text{
+        width: 440px;
     }
 }
+@media (max-width: 1024px){
+    header{
+        padding: 32px;
+    }
+    .section2_container{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:948px){
+    .section1{
+        padding: 0px 85px;
+    }
+}
+@media (max-width:900px){
+    .section3_container{
+        flex-direction: column;
+        display: flex;
+        row-gap: 20px;
+    }
+    .div_article{
+        justify-content: center;
+    }
+}
+@media (max-width:810px){
+    .section1{
+        height: 320px;
+        padding: 0 66px;
+    }
+    .section1_title{
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+@media (max-width:800px){
+    .footer_container1{
+        column-gap: 96px;
+    }
+}
+
 @media (max-width:780px) {
     .section2_container_left{
         height: 320px;
@@ -87,5 +91,13 @@
         flex-direction: column;
         text-align: center;
     }
-
+    .section2_title,
+    .section2_text{
+        width: 100%;
+    }
 }
+
+
+
+
+
