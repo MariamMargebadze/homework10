@@ -38,3 +38,15 @@
         justify-content: center;
     }
 }
+@media (max-width:1305px){
+    footer{
+        padding: 40px 445px 40px 32px;
+    }
+    .footer_container3{
+        display: none;
+    }
+    .footer_container{
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
