@@ -80,6 +80,9 @@
     }
 }
 @media (max-width:780px) {
+    .section2_container_left{
+        height: 320px;
+    }
     .section2_container_right{
         flex-direction: column;
         text-align: center;

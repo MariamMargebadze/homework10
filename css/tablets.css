@@ -8,6 +8,9 @@
     .burger_icon{
         display: block;
     }
+    .section3{
+        padding: 40px 24px;
+    }
 }
 @media (max-width:550px){
     header{
@@ -18,5 +21,12 @@
     .section1{
         padding: 0px 85px;
     }
-
+}
+@media (max-width:450px){
+    .section2_container_left{
+        height: 240px;
+    }
+    .section3{
+        padding: 32px 24px;
+    }    
 }
