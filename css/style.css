@@ -130,12 +130,16 @@ header{
     display: flex;
     column-gap: 30px;
     justify-content: center;
+}
+.section3_article{
+    background-color: #E3DAD8;
 
 }
 .div_article{
     display: flex;
     align-items: center;
     background-color: #E3DAD8;
+    margin-bottom: 16px;
 }
 .section3_title{
     font-family: 'Inter', sans-serif;

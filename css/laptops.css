@@ -2,6 +2,7 @@
     header{
         padding: 32px;
     }
+
 }
 @media (max-width:810px){
     .section1{
@@ -20,5 +21,20 @@
 @media (max-width: 1024px){
     .section2_container{
         flex-direction: column;
+    }
+}
+@media (max-width:1280px){
+    .section3{
+        padding: 80px 32px;
+    }
+}
+@media (max-width:900px){
+    .section3_container{
+        flex-direction: column;
+        display: flex;
+        row-gap: 20px;
+    }
+    .div_article{
+        justify-content: center;
     }
 }
