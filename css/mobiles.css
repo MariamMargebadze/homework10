@@ -12,4 +12,14 @@
     .logo2{
         text-align: center;
     }
+    .footer_container1{
+        column-gap: 10px;
+        justify-content: center;
+    }
+    .footer_container2{
+        text-align: center
+    }
+    .footer_title{
+        text-align: center;
+    }
 }
